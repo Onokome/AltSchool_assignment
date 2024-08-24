@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form page</title>
+    <link rel="stylesheet" href="formStyle.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="left-container">
+        <img
+          src="assets/images/AltSchool-Image.png"
+          alt="Learn a highly sought skill"
+        />
+
+        <section>
+          <h1>Learn highly sought after skills without hassle.</h1>
+        </section>
+
+        <footer class="footer">
+          <nav class="icons">
+            <img src="assets/images/twitter_.png" alt="twitter" />
+            <img src="assets/images/facebook_.png" alt="facebook" />
+            <img src="assets/images/instagram_.png" alt="insta" />
+            <img src="assets/images/linkedin_.png" alt="linkedin" />
+          </nav>
+
+          <p>tel: 0800ALTSCHOOL</p>
+          <span> © 2024 AltSchool Africa. All rights reserved. </span>
+        </footer>
+      </div>
+
+      <div class="right-container">
+        <div class="header">
+          <p class="header1">
+            Already an AltSchooler?
+            <span class="header2">Sign In!</span>
+          </p>
+        </div>
+
+        <br />
+
+        <div>
+          <h2>Signup</h2>
+          <p>Take the next steps to apply at AltSchool Africa</p>
+        </div>
+
+        <form class="form">
+          <div class="form-group">
+            <div class="form-container">
+              <div class="flex">
+                <label style="display: block" for="firstname">First Name</label>
+                <input
+                  type="text"
+                  name="firstname"
+                  id="firstname"
+                  placeholder="Enter first name"
+                  required
+                />
+              </div>
+
+              <div class="flex">
+                <label style="display: block" for=" last name">Last name</label>
+                <input
+                  type="text"
+                  name="last name"
+                  id="last name"
+                  placeholder="Enter last name"
+                  required
+                />
+              </div>
+
+              <div class="flex">
+                <label style="display: block" for="dropdown">Gender</label>
+                <select name="dropdown" id="dropdown" required>
+                  <option value="" disabled selected>select gender</option>
+                  <option value="Male">Male</option>
+                  <option value="Female">Female</option>
+                </select>
+              </div>
+
+              <div class="flex">
+                <label style="display: block" for="date">Date of Birth</label>
+                <input type="date" name="dob" id="date" required />
+              </div>
+
+              <div class="flex">
+                <label for="email">Email Adress</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Enter email address"
+                  required
+                />
+              </div>
+
+              <div class="flex">
+                <label for="phone">Phone Number</label>
+                <input
+                  type="tel"
+                  name="phone"
+                  id="phone"
+                  placeholder="08123456790"
+                  required
+                />
+              </div>
+
+              <div class="flex">
+                <label for="country">Country</label>
+                <select name="country" id="country" required>
+                  <option value="" disabled selected>Select country</option>
+                  <option value="America">America</option>
+                  <option value="Barbados">Barbados</option>
+                  <option value="China">China</option>
+                  <option value="Denmark">Denmark</option>
+                  <option value="Nigeria">Nigeria</option>
+                </select>
+              </div>
+
+              <div class="flex">
+                <label for="state">State/City of Residence</label>
+                <input
+                  type="text"
+                  name="state"
+                  id="state"
+                  placeholder="Enter your state of residence"
+                  required
+                />
+              </div>
+            </div>
+
+            <div class="flex">
+              <label>How did you hear about us?</label>
+              <select class="aboutUs" name="about " id="about" required>
+                <option value="" disabled selected>Select channel</option>
+                <option value="twitter">twitter</option>
+                <option value="facebook">facebook</option>
+                <option value="whatsapp">whatsapp</option>
+                <option value="linkedin">linkedin</option>
+              </select>
+            </div>
+
+            <div class="form-container">
+              <div class="flex">
+                <label for="password">Password</label>
+                <input
+                  type="password"
+                  name="password"
+                  id="password"
+                  placeholder="Enter password"
+                  required
+                />
+              </div>
+
+              <div class="flex">
+                <label for="confirm">Confirm Password</label>
+                <input
+                  type="password"
+                  name="confirm"
+                  id="confirm"
+                  placeholder="Enter password again"
+                  required
+                />
+              </div>
+            </div>
+
+            <section>
+              <p>
+                By clicking continue, I agree to
+                <span>Terms of Use</span> and acknowledge that I have read the
+                <span>Privacy Policy.</span>
+              </p>
+
+              <div class="flex">
+                <button class="button" type="submit">Submit</button>
+              </div>
+            </section>
+          </div>
+        </form>
+      </div>
+
+      <a href="/index.html">Back to first page</a>      
+    </div>
+  </body>
+</html>

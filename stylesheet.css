@@ -1,0 +1,71 @@
+/*main styles for the webpage*/
+body {
+  background-color: #f3f2f2;
+}
+
+#about {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: xx-large;
+  color: darkblue;
+  margin-bottom: 0.5em;
+}
+
+#details ul > li {
+  list-style: square;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#details {
+  font-size: larger;
+  font: weight 2px;
+}
+
+.main {
+  border: 2px solid darkblue;
+  padding: 10px;
+  margin: 10px;
+}
+
+ol > li {
+  list-style: upper-roman;
+  font-family: cursive;
+  font-size: medium;
+}
+
+ol li::marker {
+  color: blue;
+}
+
+ul li::marker {
+  color: blue;
+}
+
+h2,
+h3 {
+  text-align: center;
+  text-decoration: underline;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: darkblue;
+}
+
+.main {
+  font-size: medium;
+  font-family: cursive;
+  color: black;
+}
+
+#info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  border-top: 1px solid #444;
+  margin: 0 10px;
+}
+
+.links {
+  text-decoration: none;
+  text-align: center;
+}
